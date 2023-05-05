@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:onClick="showMenu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/reglog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_log"
+        android:onClick="showMenu_reglog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/menu_button"
+        android:layout_marginStart="10dp"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollviewid_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:id="@+id/user_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:stretchColumns="*"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/table_border">
+
+        <TableRow>
+
+            <TextView
+                android:text="id"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:text="Email"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+            />
+            <TextView
+                android:text="BirthDate"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:text="Admin"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+            />
+
+        </TableRow>
+
+    </TableLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollviewid_championships"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        >
+        <TableLayout
+            android:id="@+id/championship_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:stretchColumns="*"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/table_border">
+
+            <TableRow>
+
+                <TextView
+                    android:text="id"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:text="Delete"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addch"
+                />
+
+            <EditText
+                android:id="@+id/name_edittext"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/date_edittext"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Date" />
+
+            <Button
+                android:id="@+id/create_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/create_championship"
+                android:onClick="addChampionship"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+    </ScrollView>

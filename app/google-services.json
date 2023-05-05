@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "187443836123",
+    "firebase_url": "https://basketball-championship-2023-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "basketball-championship-2023",
+    "storage_bucket": "basketball-championship-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187443836123:android:49c6ed80cb3692acb308fe",
+        "android_client_info": {
+          "package_name": "com.example.basketball_championship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187443836123-iifcbpt2cjg7os4ce8986n0q2dgtilar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basketball_championship",
+            "certificate_hash": "3fb783866933657cf294c286a9f3e67d34e014b7"
+          }
+        },
+        {
+          "client_id": "187443836123-19r6a3dbreu7loth0b21c76jdua3qplq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5obQVduTQKicbnNxK8VGWVbiGrxAIMfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187443836123-19r6a3dbreu7loth0b21c76jdua3qplq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

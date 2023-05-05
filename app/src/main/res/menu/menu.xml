@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_0"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/menu_item_1"
+        android:title="@string/news"
+        />
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="@string/players"/>
+    <item
+        android:id="@+id/menu_item_3"
+        android:title="@string/scores"/>
+    <item
+        android:id="@+id/menu_item_4"
+        android:title="@string/teams"/>
+    <item
+        android:id="@+id/menu_item_5"
+        android:title="@string/schedule"/>
+    <item
+        android:id="@+id/menu_item_6"
+        android:title="@string/administrator"/>
+    <item
+        android:id="@+id/menu_item_7"
+        android:title="@string/profile"/>
+</menu>

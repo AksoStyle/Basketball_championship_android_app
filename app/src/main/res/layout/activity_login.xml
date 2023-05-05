@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:onClick="showMenu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/reglog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_log"
+        android:onClick="showMenu_reglog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/menu_button"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/russel_westbrook"
+        android:layout_below="@id/login_title"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_email_input_text"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/imageview_logo"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_password_input_text"
+        android:inputType="textPassword"
+        android:layout_below="@id/edittext_email"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"
+        android:layout_below="@id/edittext_password"
+        android:layout_marginTop="16dp"
+        android:onClick="login"/>
+
+</RelativeLayout>

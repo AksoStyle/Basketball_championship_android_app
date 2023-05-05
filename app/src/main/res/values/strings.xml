@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Basketball_Championship</string>
+    <string name="menu">Menü</string>
+    <string name="homepage">HomePage</string>
+    <string name="news">News</string>
+    <string name="players">Players</string>
+    <string name="scores">Scores</string>
+    <string name="teams">Teams</string>
+    <string name="schedule">Schedule</string>
+    <string name="greeting">Üdvözöllek a Kosárlabda Bajnokság oldalán!</string>
+    <string name="information">Itt találsz minden fontos információt a kosárlabda bajnoksággal kapcsolatban.</string>
+
+    <!-- Image urls -->
+    <string name="image_url">https://ca-times.brightspotcdn.com/dims4/default/7ce5d2e/2147483647/strip/true/crop/4735x3262+0+0/resize/1200x827!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa0%2Fe3%2F363d7f674bc08b33ae5b9fa1768d%2F1191186-sp-0926-lakers-media-day-cmh-14.jpg</string>
+    <string name="administrator">Administrator</string>
+    <string name="news_greet">Hírfolyam</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be 5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login">Login</string>
+    <string name="login_button_text">Bejelentkezés</string>
+    <string name="login_password_input_text">Jelszó</string>
+    <string name="login_email_input_text">E-mail</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="registration">Registration</string>
+    <string name="reg_log">Register/Login</string>
+    <string name="logout">logout</string>
+    <string name="addch">Add Championship</string>
+    <string name="create_championship">Create championship</string>
+    <string name="player_email">E-mail address:</string>
+    <string name="player_birthdate">Birth of date:</string>
+    <string name="player_name">Profile name:</string>
+    <string name="save">save</string>
+    <string name="name">Name</string>
+
+</resources>
